@@ -14,9 +14,7 @@ public class SceneTeleport : MonoBehaviour
         if (isLoading)
             return;
 
-        bool isPlayer =
-            other.CompareTag("Player") ||
-            other.transform.root.CompareTag("Player");
+        bool isPlayer = other.CompareTag("Player") || other.transform.root.CompareTag("Player");
 
         if (!isPlayer)
             return;
