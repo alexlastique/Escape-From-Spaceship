@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneTeleport : MonoBehaviour
 {
     [SerializeField] private string targetScene = "Storage";
-    [SerializeField] private string targetSpawnPoint = "SpawnPoint_Storage";
+    [SerializeField] private string targetSpawnPoint = "SpawnPoint_StorageRoom";
 
     private bool isLoading;
 
