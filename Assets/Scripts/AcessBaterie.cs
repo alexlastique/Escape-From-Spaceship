@@ -10,6 +10,9 @@ public class AcessBaterie : MonoBehaviour
     [SerializeField]
     private GameObject TpBattery;
 
+    [SerializeField]
+    private GameObject BatteryBlocker;
+
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +28,7 @@ public class AcessBaterie : MonoBehaviour
         }
         if (allActive)
         {
+            BatteryBlocker.SetActive(false);
             TpBattery.SetActive(true);
         }
     }

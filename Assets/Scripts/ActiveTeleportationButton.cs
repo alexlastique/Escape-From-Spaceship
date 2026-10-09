@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation;
 
-public class ActiveTeleportation : MonoBehaviour
+public class ActiveTeleportationButton : MonoBehaviour
 {
 
     public GameObject teleportationArea;
